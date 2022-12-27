@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="../../assets/style/style.css" />
     <title>Document</title>
   </head>
-  <body class="bg-decor">
+  <body class="bg-decor-blue">
     <header>
       <nav class="navbar navbar-expand-lg bg-sura navbar-dark">
         <div class="container-fluid">
@@ -55,7 +55,7 @@
 
     <section>
       <div class="row d-flex justify-content-center align-items-center">
-        <div class="col-12 col-md-6 text-center shadow my-5">
+        <div class="col-12 col-md-6 text-center bg-sura text-white shadow my-5">
           <h1>Autoselect Form</h1>
         </div>
       </div>
@@ -63,17 +63,19 @@
 
     <main>
       <section>
-        <div class="container bg-sura">
-          <div class="row d-flex justify-content-around my-5 bg-sura me-5">
-            <div class="col-12 col-md-6 bg-sura">
+        <div class="container">
+          <div class="row d-flex justify-content-around my-5 me-5">
+            <div class="col-12 col-md-6">
               <div class="row d-flex justify-content-around align-items-center">
                 <div class="col-12 col-md-6">
                   <div class="input-group flex-nowrap mb-3 mt-3">
-                    <span class="input-group-text" id="addon-wrapping"
+                    <span
+                      class="input-group-text text-white bg-sura fw-bold border-box-blue"
+                      id="addon-wrapping"
                       >CEDULA</span
                     >
                     <input
-                      type="date"
+                      type="text"
                       class="form-control"
                       aria-label="Username"
                       aria-describedby="addon-wrapping"
@@ -81,27 +83,267 @@
                   </div>
                 </div>
                 <div class="col-12 col-md-6 mt-3">
-                  <p class="btn btn-primary">CONSULTAR</p>
+                  <p class="btn btn-primary bg-sura fw-bold border-box-blue">
+                    CONSULTAR
+                  </p>
                 </div>
               </div>
 
               <div class="input-group flex-nowrap mb-3 mt-3">
-                <span class="input-group-text" id="addon-wrapping"
-                  >FECHA DE LA ENTREVISTA</span
+                <span
+                  class="input-group-text text-white bg-sura fw-bold border-box-blue"
+                  id="addon-wrapping"
+                  >NOMBRE DE LA PERSONA</span
                 >
                 <input
-                  type="date"
-                  class="form-control"
+                  type="text"
+                  class="form-control text-center"
                   aria-label="Username"
                   aria-describedby="addon-wrapping"
                 />
               </div>
+
+              <div class="input-group flex-nowrap mb-3 mt-3">
+                <span
+                  class="input-group-text text-white bg-sura fw-bold border-box-blue"
+                  id="addon-wrapping"
+                  >NUMERO DE DOCUMENTO</span
+                >
+                <input
+                  type="text"
+                  class="form-control text-center"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+
+              <div class="input-group flex-nowrap mb-3 mt-3">
+                <span
+                  class="input-group-text text-white bg-sura fw-bold border-box-blue"
+                  id="addon-wrapping"
+                  >CELULAR</span
+                >
+                <input
+                  type="text"
+                  class="form-control text-center"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+
+              <div class="input-group flex-nowrap mb-3 mt-3">
+                <span
+                  class="input-group-text text-white bg-sura fw-bold border-box-blue"
+                  id="addon-wrapping"
+                  >CORREO</span
+                >
+                <input
+                  type="text"
+                  class="form-control text-center"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+
+              <div class="input-group mb-3">
+                <label
+                  class="input-group-text text-white bg-sura fw-bold border-box-blue"
+                  for="inputGroupSelect01"
+                  >FORMACION ACADEMICA</label
+                >
+                <select class="form-select text-center" id="inputGroupSelect01">
+                  <option selected></option>
+                  <option value="1">Bachiller</option>
+                  <option value="2">Tecnico/Tecnologo</option>
+                  <option value="3">Profesional</option>
+                </select>
+              </div>
+
             </div>
-            <div class="col-12 col-md-6 bg-sura"></div>
+            <div class="col-12 col-md-6 bg-decor-blue">
+              <div class="input-group flex-nowrap mb-3 mt-3">
+                <span
+                  class="input-group-text text-white bg-sura fw-bold border-box-blue"
+                  id="addon-wrapping"
+                  >FECHA DE LA ENTREVISTA</span
+                >
+                <input
+                  type="date"
+                  class="form-control text-center"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+
+              <div class="input-group flex-nowrap mb-3 mt-3">
+                <span
+                  class="input-group-text text-white bg-sura fw-bold border-box-blue"
+                  id="addon-wrapping"
+                  >POSICIÓN</span
+                >
+                <input
+                  type="text"
+                  class="form-control text-center"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+
+              <div class="input-group flex-nowrap mb-3 mt-3">
+                <span
+                  class="input-group-text text-white bg-sura fw-bold border-box-blue"
+                  id="addon-wrapping"
+                  >CARGO</span
+                >
+                <input
+                  type="text"
+                  class="form-control text-center"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+
+              <div class="input-group mb-3">
+                <label
+                  class="input-group-text text-white bg-sura fw-bold border-box-blue"
+                  for="inputGroupSelect01"
+                  >CIUDAD DEL CARGO</label
+                >
+                <select class="form-select text-center" id="inputGroupSelect01">
+                  <option selected></option>
+                  <option value="1">Bachiller</option>
+                  <option value="2">Tecnico/Tecnologo</option>
+                  <option value="3">Profesional</option>
+                </select>
+              </div>
+
+              <div class="input-group mb-3">
+                <label
+                  class="input-group-text text-white bg-sura fw-bold border-box-blue"
+                  for="inputGroupSelect01"
+                  >MODALIDAD DE CONTRATACION</label
+                >
+                <select class="form-select text-center" id="inputGroupSelect01">
+                  <option selected></option>
+                  <option value="1">Bachiller</option>
+                  <option value="2">Tecnico/Tecnologo</option>
+                  <option value="3">Profesional</option>
+                </select>
+              </div>
+
+              <div class="input-group flex-nowrap mb-3 mt-3">
+                <span
+                  class="input-group-text text-white bg-sura fw-bold border-box-blue"
+                  id="addon-wrapping"
+                  >TIPO DE CANDIDATO</span
+                >
+                <input
+                  type="text"
+                  class="form-control text-center"
+                  aria-label="Username"
+                  aria-describedby="addon-wrapping"
+                />
+              </div>
+
+
+
+
+
+            </div>
           </div>
         </div>
         <div class="container">
           <div class="row d-flex justify-content-around">
+            <div
+              class="col-12 col-md-2 d-block align-items-center justify-content-center"
+            >
+
+            <div class="row d-flex g-5 justify-content-around">
+              <div class="col-12 col-md-6 ">
+                <p>
+                  <button
+                    class="btn btn-primary bg-sura"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample6"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    APRENDIZAJE CONTINUO 
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample6">
+                  <div class="card card-body mb-3">
+                    Some placeholder content for the collapse component. This
+                    panel is hidden by default but revealed when the user
+                    activates the relevant trigger.
+                  </div>
+                </div>
+
+              </div>
+              <div class="col-12 col-md-6">
+                <p>
+                  <button
+                    class="btn btn-primary bg-sura"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#collapseExample5"
+                    aria-expanded="false"
+                    aria-controls="collapseExample"
+                  >
+                    ESCUCHA 
+                  </button>
+                </p>
+                <div class="collapse" id="collapseExample5">
+                  <div class="card card-body mb-3">
+                    Some placeholder content for the collapse component. This
+                    panel is hidden by default but revealed when the user
+                    activates the relevant trigger.
+                  </div>
+                </div>
+
+              </div>
+            </div>
+             
+              <p>
+                <button
+                  class="btn btn-primary bg-sura"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample7"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Button with data-bs-target
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample7">
+                <div class="card card-body mb-3">
+                  Some placeholder content for the collapse component. This
+                  panel is hidden by default but revealed when the user
+                  activates the relevant trigger.
+                </div>
+              </div>
+              <p>
+                <button
+                  class="btn btn-primary bg-sura"
+                  type="button"
+                  data-bs-toggle="collapse"
+                  data-bs-target="#collapseExample8"
+                  aria-expanded="false"
+                  aria-controls="collapseExample"
+                >
+                  Button with data-bs-target
+                </button>
+              </p>
+              <div class="collapse" id="collapseExample8">
+                <div class="card card-body mb-3">
+                  Some placeholder content for the collapse component. This
+                  panel is hidden by default but revealed when the user
+                  activates the relevant trigger.
+                </div>
+              </div>
+            </div>
             <div
               class="col-12 col-md-2 d-block align-items-center justify-content-center"
             >
@@ -180,83 +422,7 @@
                   panel is hidden by default but revealed when the user
                   activates the relevant trigger.
                 </div>
-              </div>
-              <p>
-                <button
-                  class="btn btn-primary bg-sura"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseExample5"
-                  aria-expanded="false"
-                  aria-controls="collapseExample"
-                >
-                  Button with data-bs-target
-                </button>
-              </p>
-              <div class="collapse" id="collapseExample5">
-                <div class="card card-body mb-3">
-                  Some placeholder content for the collapse component. This
-                  panel is hidden by default but revealed when the user
-                  activates the relevant trigger.
-                </div>
-              </div>
-              <p>
-                <button
-                  class="btn btn-primary bg-sura"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseExample6"
-                  aria-expanded="false"
-                  aria-controls="collapseExample"
-                >
-                  Button with data-bs-target
-                </button>
-              </p>
-              <div class="collapse" id="collapseExample6">
-                <div class="card card-body mb-3">
-                  Some placeholder content for the collapse component. This
-                  panel is hidden by default but revealed when the user
-                  activates the relevant trigger.
-                </div>
-              </div>
-              <p>
-                <button
-                  class="btn btn-primary bg-sura"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseExample7"
-                  aria-expanded="false"
-                  aria-controls="collapseExample"
-                >
-                  Button with data-bs-target
-                </button>
-              </p>
-              <div class="collapse" id="collapseExample7">
-                <div class="card card-body mb-3">
-                  Some placeholder content for the collapse component. This
-                  panel is hidden by default but revealed when the user
-                  activates the relevant trigger.
-                </div>
-              </div>
-              <p>
-                <button
-                  class="btn btn-primary bg-sura"
-                  type="button"
-                  data-bs-toggle="collapse"
-                  data-bs-target="#collapseExample8"
-                  aria-expanded="false"
-                  aria-controls="collapseExample"
-                >
-                  Button with data-bs-target
-                </button>
-              </p>
-              <div class="collapse" id="collapseExample8">
-                <div class="card card-body mb-3">
-                  Some placeholder content for the collapse component. This
-                  panel is hidden by default but revealed when the user
-                  activates the relevant trigger.
-                </div>
-              </div>
+              </div>   
             </div>
           </div>
         </div>
