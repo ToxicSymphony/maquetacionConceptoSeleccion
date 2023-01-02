@@ -20,6 +20,14 @@
     background-color: rgb(168, 188, 196);
 }
 
-.bg-decor-veryLightBlue{
+.bg-decor-LightBlue{
     background-color: rgb(210, 230, 240);
+}
+
+.bg-decor-inform{
+    background-color: rgb(240, 244, 244);
+}
+
+.text-color-sura{
+    color: rgb(4, 52, 164);;
 }
