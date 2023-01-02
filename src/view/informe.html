@@ -10,6 +10,7 @@
       integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="../../assets/style/style.css" />
     <title>Document</title>
   </head>
@@ -64,10 +65,10 @@
     </section>
 
     <main>
-      <div class="container">
-        <div class="row bg-decor-inform d-flex justify-content-around align-items-center">
+      <div class="container bg-decor-inform my-5">
+        <div class="row my-5 d-flex justify-content-around align-items-center">
           <div
-            class="col-12 col-md-3 border border-danger d-flex"
+            class="col-12  col-md-3 border border-danger my-5"
           >
             <img
               class="img-fluid w-100"
@@ -81,7 +82,7 @@
             <div class="row ">
              
               <div class="col col-md-12 border border-danger d-flex justify-content-between align-items-center">
-                <div class="col col-md-6 border border-danger bg-white">
+                <div class="col col-md-7 border border-danger bg-white">
                   <h1 class="fs-2 text-color-sura">Nombre y Apellido</h1>
                   <div class="col col-md-9 border border-danger d-flex justify-content-between align-items-center">
                     <div class="col col-md-3 border border-danger">
@@ -106,50 +107,93 @@
                   />
                 </div>
               </div>
-           
-            
-           
-            
 
-             
-              <div class="col col-md-8 me-5 my-2 border border-danger d-flex align-items-center bg-white">
-                <div class="col col-md-12 border border-danger">
-                  <div class="input-group mb-3">
-                    <label
-                      class="input-group-text text-color-sura bg-white fw-bold"
-                      for="inputGroupSelect01"
-                      >CARGO</label
-                    >
-                    <select class="form-select text-center" id="inputGroupSelect01">
-                      <option selected></option>
-                      <option value="1">Bachiller</option>
-                      <option value="2">Tecnico/Tecnologo</option>
-                      <option value="3">Profesional</option>
-                    </select>
-                  </div>
+              <div class="col col-md-12 me-5 my-2 border border-danger bg-white">
+                  <div class="col col-md-12 ms-2 d-flex align-items-center  border border-danger">
+                    <div class="col col-md-12 d-flex border border-danger me-1">
+                      <div class="input-group mb-3">
+                        <label
+                          class="input-group-text text-color-sura bg-white fw-bold"
+                          for="inputGroupSelect01"
+                          >CARGO</label
+                        >
+                        <select class="form-select text-center" id="inputGroupSelect01">
+                          <option selected></option>
+                          <option value="1">Bachiller</option>
+                          <option value="2">Tecnico/Tecnologo</option>
+                          <option value="3">Profesional</option>
+                        </select>
+                      </div>
+                    </div>
+                   
                 </div>
+                  <div class="col col-md-11 ms-2 d-flex align-items-center  border border-danger">
+                    <div class="col col-md-12 d-flex border border-danger">
+                      <h1 class="text-color-sura fs-5">Líder:</h1>
+                      <div class="col col-md-6 d-flex align-items-center border border-danger">
+                        <p class="text-color-sura text-center fs-6">Nombre del líder</p>
+                      </div>
+                    </div>
+                   
+                </div>
+                
+                <div class="col col-md-12 ms-2 d-flex align-items-center  border border-danger">
+                  <div class="col col-md-12 d-flex border border-danger">
+                    <h1 class="text-color-sura my-1 fs-5">Analista de seleccion:</h1>
+                    <div class="col col-md-6 d-flex align-items-center border border-danger">
+                      <p class="text-color-sura text-center my-1 fs-6">Nombre del analista de seleccion</p>
+                    </div>
+                  </div>
+                 
               </div>
-              
             </div>
           </div>
-         
-         
-          
-        
-          
-        
+        </div>
+        <div class="row d-flex justify-content-around align-items-top">
+          <div class="col col-md-5 bg-white border border-danger">
+            <div class="row">
+              <div class="col col-md-12 d-flex justify-content-center">
+                <h1 class="text-color-sura fs-4">
+                  Conocimientos y experiencias
+                </h1>
+              </div>
+            </div>
+            <div class="container my-3">
+              <div class="row gap-2">
+                <div class="col col-md-12 border border-danger">
+                  <p class="text-color-sura bi bi-dot fs-5">Espacio para observaciones</p>
+                </div>
+                <div class="col col-md-12 border border-danger">
+                  <p class="text-color-sura bi bi-dot fs-5">Espacio para observaciones</p>
+                </div>
+                <div class="col col-md-12 border border-danger">
+                  <p class="text-color-sura bi bi-dot fs-5">Espacio para observaciones</p>
+                </div>
+                <div class="col col-md-12 border border-danger">
+                  <p class="text-color-sura bi bi-dot fs-5">Espacio para observaciones</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col col-md-6 bg-white d-flex justify-content-between border border border-danger">
+            <div class="col border border-danger">
+              <div class="row d-flex justify-content-start">
+                <div class="col col-md-3 border border-danger">
+                  <img class="img-fluid w-100" src="../../assets/img/bombillito.png" alt="">
+                </div>
+                <div class="col col-md-9 border border-danger">
+                  <h1 class="text-color-sura fs-4">Motivacíon</h1>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore saepe, tenetur, odit eveniet voluptas quibusdam aliquid dolore dignissimos deserunt ratione nihil animi repudiandae et. Itaque sunt aut cumque libero aliquid.</p>
+                </div>
+              </div>
 
-          <!-- <div
-          class="col-12 col-md-3 border border-danger d-flex justify-content-center"
-        >
-          <img
-            class="img-fluid w-100"
-            src="../../assets/img/fotoPerfil.png"
-            alt=""
-          />
-        </div> -->
-        
-      </div>
+          
+
+            </div>
+          </div>
+          </div>
+          
+        </div>
       </div>
     </main>
 
